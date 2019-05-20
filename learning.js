@@ -30,7 +30,9 @@ server.get('/', (req, res) => {
         res.end(`
             <!DOCTYPE html>
             <html lang="en">
-            <head><title>Yuho</title></head>
+            <head><title>Yuho</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+            </head>
             <body>${html}</body>
             </html>
         `)
